@@ -9,7 +9,7 @@ To use Sticky Notes, you need to have python installed. Additionally, Sticky Not
 ### Install
  1. Clone or download and unzip the main branch
  2. Navigate to the directory in a terminal (E.g. CMD, Linux terminal, etc.) `cd Sticky-Notes`
- 3. Install all python prerequisites `python -m pip install -r requirements.txt`
+ 3. Install all python prerequisites `python -m pip install -r ./optional-resources/requirements.txt`
 ## Usage
 To use this program, run `python main.py`
 ## Executable
