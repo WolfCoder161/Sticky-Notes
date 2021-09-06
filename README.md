@@ -3,7 +3,7 @@
 # Sticky Notes
 [![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://www.python.org/)
 ## Description
-Thank you for using Sticky Notes. Sticky Notes is a program that allows you to mimic regular desk sticky notes on your PC. Sticky Notes was designed to be simple so you can focus with no distractions. Sticky Notes currently can open and allow direct editing to any existing .txt file. Sticky Notes saves your notes in .txt format so you can edit and view them in other text editors at your convenience.
+Thank you for using Sticky Notes. Sticky Notes is a program that allows you to mimic regular desk sticky notes on your PC. Sticky Notes was designed to be simple so you can focus with no distractions. Sticky Notes currently can open and allow direct editing to any existing .txt file. Sticky Notes saves your notes in .txt format so you can edit and view them in other text editors at your convenience. Sticky Notes works on all major platforms that support Python3 (E.g. Linux, macOS, Windows, etc.).
 ## Installation
 To use Sticky Notes, you need to have python installed. Additionally, Sticky Notes depends on the PySimpleGui and subprocess python libraries.
 ### Install
