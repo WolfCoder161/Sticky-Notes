@@ -10,11 +10,13 @@ To use Sticky Notes, you need to have python installed. Additionally, Sticky Not
  1. Clone or download and unzip the main branch
  2. Navigate to the directory in a terminal (E.g. CMD, Linux terminal, etc.) `cd Sticky-Notes`
  3. Install all python prerequisites `python -m pip install -r ./optional-resources/requirements.txt`
+> **_NOTE:_**  On some Linux distros you will need to install tkinter manually. Run `sudo apt-get install python3-tk`
 ## Usage
 To use this program, run `python main.py`
 ## Executable
 Use the python PyInstaller module to create an executable. Check the [documentation ](https://pyinstaller.readthedocs.io/en/stable/) for more details on how to use PyInstaller.
 To create an executable of Sticky Notes, you will first need to edit the function call on line 94 to `createNewInstanceExe()` instead of `createNewInstance()`. Once you have done that and after you have installed PyInstaller, run `python -m PyInstaller --noconsole --onefile --icon=./optional-resources/stickyNotes.ico ./main.py`
+> **_NOTE:_**  On Linux you may need to use `python3 ...` instead of just `python ...`
 ## License
 This projects is licensed under the GNU General Public License v3.0. Click [here](LICENSE) to view the license text.
 ## Screenshot
